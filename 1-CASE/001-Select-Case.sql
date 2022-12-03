@@ -1,6 +1,6 @@
 SELECT (LastName + ' ' + FirstName) AS Name,
-       CASE WHEN Country = 'USA' THEN 'Unity States MF'
-            WHEN Country = 'UK' THEN 'Ukrania'
+       CASE WHEN Country = 'USA' THEN 1
+            WHEN Country = 'UK' THEN 2
             ELSE Country
-            END AS Column_Name
+            END AS CountyGroup
 FROM Employees
