@@ -1,0 +1,8 @@
+ALTER TABLE Users
+ADD creationTime DATE
+
+ALTER TABLE Users
+ALTER COLUMN userName CHARACTER(50)
+
+ALTER TABLE Users
+DROP COLUMN creationTime
