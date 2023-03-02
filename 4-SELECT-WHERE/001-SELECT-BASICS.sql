@@ -13,3 +13,6 @@ SELECT OrderId, ShipName FROM Orders
 
 SELECT OrderId, ShipName FROM Orders
     WHERE OrderDate NOT BETWEEN '1996-07-04' AND '1996-07-06'
+
+SELECT OrderId, ShipName FROM Orders
+    WHERE OrderDate NOT BETWEEN '1996-07-04' AND '1996-07-08'
